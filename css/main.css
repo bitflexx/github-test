@@ -35,6 +35,7 @@
 }
 .logo-container h1 span {
   font-weight: 800;
+  color: orange;
 }
 .navigation {
   float: right;
@@ -53,4 +54,9 @@
   color: white;
   font-family: "Montserrat";
   font-size: 16px;
+}
+.navigation a li:hover {
+  transition: ease-in-out;
+  transition: 0.4s;
+  color: orange;
 }
